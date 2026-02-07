@@ -6,9 +6,53 @@
     <title>Achebo Edwin (Edwin Xploit) | Web3 Architect</title>
     <meta name="description" content="Elite Web3 community builder, marketer, and event strategist." />
     <link rel="icon" href="https://i.ibb.co/Qjk92yC2/favicon.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                DEFAULT: '#FFD30D',
+                hover: '#E6BE0B',
+                glow: 'rgba(255, 211, 13, 0.15)',
+              },
+              dark: {
+                bg: '#050505',
+                card: '#0F0F0F',
+                border: '#27272a',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif'],
+            },
+            backgroundImage: {
+              'hero-glow': 'radial-gradient(circle at 50% 50%, rgba(255, 211, 13, 0.15) 0%, transparent 50%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for Web3 feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #FFD30D;
+      }
+    </style>
   <script type="importmap">
 {
   "imports": {
