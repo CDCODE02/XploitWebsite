@@ -1,6 +1,7 @@
 import { Box, Mic, Users, Zap, TrendingUp, Globe, Target, Award } from 'lucide-react';
 
 export const NAVIGATION = [
+  { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Services', href: '#services' },
   { name: 'Experience', href: '#experience' },
