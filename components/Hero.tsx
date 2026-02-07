@@ -52,12 +52,12 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <div className="mt-10 flex items-center justify-center md:justify-start gap-6 text-gray-500">
-            <a href="#" className="hover:text-brand transition-colors" aria-label="Twitter"><Twitter size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors" aria-label="LinkedIn"><Linkedin size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors" aria-label="Telegram"><Send size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors" aria-label="Instagram"><Instagram size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors" aria-label="TikTok">
+          <div className="mt-10 flex items-center justify-center md:justify-start gap-6 text-white">
+            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Twitter"><Twitter size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="LinkedIn"><Linkedin size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Telegram"><Send size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Instagram"><Instagram size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="TikTok">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
