@@ -3,16 +3,19 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer className="py-12 bg-black border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="text-center md:text-left">
-          <a href="#home" className="inline-block mb-2">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="text-center md:text-left max-w-xl">
+          <a href="#home" className="inline-block mb-4">
             <img 
               src="https://i.ibb.co/CsYdLDLD/explot-logo.png" 
               alt="Edwin Xploit" 
               className="h-8 w-auto object-contain hover:opacity-80 transition-opacity"
             />
           </a>
-          <p className="text-gray-500 text-sm mt-1">
+          <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+            I help Web3 projects turn complex protocols into thriving ecosystems making user acquisition, community retention, and on-chain growth seamless and scalable.
+          </p>
+          <p className="text-gray-600 text-xs">
             © {new Date().getFullYear()} All rights reserved.
           </p>
         </div>
