@@ -16,7 +16,7 @@ const About: React.FC = () => {
           >
             <h2 className="text-brand font-bold uppercase tracking-widest text-sm mb-3">About Me</h2>
             <h3 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">
-              More than a marketer. <br/> A strategic partner.
+              I'm Edwin Xploit, a dynamic community builder
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
               In the fast-paced world of Web3, noise is cheap. Attention is expensive. Trust is priceless. 
