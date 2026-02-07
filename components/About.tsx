@@ -21,10 +21,13 @@ const About: React.FC = () => {
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
               I have a strong track record in driving engagement and growth. A skilled video content creator known for crafting compelling, platform-native narratives.
             </p>
-            <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              An experienced Web3 marketing executive and event expert, adept at organizing,
+            <p className="text-gray-400 text-lg leading-relaxed mb-6">
+              I'm an experienced Web3 marketing executive and event expert, adept at organizing,
               moderating, and amplifying blockchain-focused gatherings that connect communities and drive ecosystem value.
               Passionate about brand representation, with a natural fit for ambassadorial and partnership-facing roles.
+            </p>
+            <p className="text-gray-400 text-lg leading-relaxed mb-8">
+              I build high-growth ecosystems by bridging digital content and human connection, scripting viral videos, architecting Web3 events, and scaling communities into engaged, loyal networks.
               <strong className="text-white"> Create value that lasts.</strong>
             </p>
 
