@@ -19,8 +19,7 @@ const About: React.FC = () => {
               I'm Edwin Xploit, a dynamic community builder
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
-              In the fast-paced world of Web3, noise is cheap. Attention is expensive. Trust is priceless. 
-              I specialize in bridging the gap between complex technology and human connection.
+              I have a strong track record in driving engagement and growth. A skilled video content creator known for crafting compelling, platform-native narratives.
             </p>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
               My approach combines data-driven growth tactics with authentic community building. 
