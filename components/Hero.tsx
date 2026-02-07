@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Twitter, Linkedin, Send } from 'lucide-react';
+import { ArrowRight, Twitter, Linkedin, Send, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Hero: React.FC = () => {
@@ -53,9 +53,25 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="mt-10 flex items-center justify-center md:justify-start gap-6 text-gray-500">
-            <a href="#" className="hover:text-brand transition-colors"><Twitter size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors"><Linkedin size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors"><Send size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors" aria-label="Twitter"><Twitter size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors" aria-label="LinkedIn"><Linkedin size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors" aria-label="Telegram"><Send size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors" aria-label="Instagram"><Instagram size={24} /></a>
+            <a href="#" className="hover:text-brand transition-colors" aria-label="TikTok">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+              </svg>
+            </a>
           </div>
         </motion.div>
 

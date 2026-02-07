@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <footer className="py-12 bg-black border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-center md:text-left">
-          <a href="#" className="inline-block mb-2">
+          <a href="#home" className="inline-block mb-2">
             <img 
               src="https://i.ibb.co/CsYdLDLD/explot-logo.png" 
               alt="Edwin Xploit" 
@@ -17,10 +17,12 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex gap-8 text-sm text-gray-400">
+        <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-400">
            <a href="#" className="hover:text-brand transition-colors">Twitter</a>
            <a href="#" className="hover:text-brand transition-colors">LinkedIn</a>
            <a href="#" className="hover:text-brand transition-colors">Telegram</a>
+           <a href="#" className="hover:text-brand transition-colors">Instagram</a>
+           <a href="#" className="hover:text-brand transition-colors">TikTok</a>
         </div>
       </div>
     </footer>
