@@ -22,9 +22,9 @@ const About: React.FC = () => {
               I have a strong track record in driving engagement and growth. A skilled video content creator known for crafting compelling, platform-native narratives.
             </p>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              My approach combines data-driven growth tactics with authentic community building. 
-              Whether I'm organizing a 500-person side event at Token2049 or devising a 
-              go-to-market strategy for a DeFi protocol, my goal remains the same: 
+              An experienced Web3 marketing executive and event expert, adept at organizing,
+              moderating, and amplifying blockchain-focused gatherings that connect communities and drive ecosystem value.
+              Passionate about brand representation, with a natural fit for ambassadorial and partnership-facing roles.
               <strong className="text-white"> Create value that lasts.</strong>
             </p>
 
