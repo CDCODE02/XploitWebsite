@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-6 text-gray-400">
+        <div className="flex flex-wrap justify-center gap-6 text-white">
            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Twitter"><Twitter size={24} /></a>
            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="LinkedIn"><Linkedin size={24} /></a>
            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Telegram"><Send size={24} /></a>
