@@ -1,4 +1,5 @@
 import React from 'react';
+import { Twitter, Linkedin, Send, Instagram } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -20,12 +21,26 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-400">
-           <a href="#" className="hover:text-brand transition-colors">Twitter</a>
-           <a href="#" className="hover:text-brand transition-colors">LinkedIn</a>
-           <a href="#" className="hover:text-brand transition-colors">Telegram</a>
-           <a href="#" className="hover:text-brand transition-colors">Instagram</a>
-           <a href="#" className="hover:text-brand transition-colors">TikTok</a>
+        <div className="flex flex-wrap justify-center gap-6 text-gray-400">
+           <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Twitter"><Twitter size={24} /></a>
+           <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="LinkedIn"><Linkedin size={24} /></a>
+           <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Telegram"><Send size={24} /></a>
+           <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Instagram"><Instagram size={24} /></a>
+           <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="TikTok">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+              </svg>
+           </a>
         </div>
       </div>
     </footer>
