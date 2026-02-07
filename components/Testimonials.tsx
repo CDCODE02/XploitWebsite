@@ -1,18 +1,17 @@
 import React from 'react';
 import { TESTIMONIALS } from '../constants';
 import { motion } from 'framer-motion';
+import { Quote } from 'lucide-react';
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-24 bg-[#080808] border-t border-white/5">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand mb-4">
-            Trusted by Ambitious Founders
-          </h2>
-          <p className="text-gray-200 text-lg max-w-2xl mx-auto">
-            Trusted by founders who value market dominance, community depth, and long-term token health
-          </p>
+    <section className="py-24 bg-[#050505] border-t border-white/5">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-brand font-bold uppercase tracking-widest text-sm mb-3">Testimonials</h2>
+          <h3 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
+            Trusted by Builders
+          </h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -23,25 +22,37 @@ const Testimonials: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="flex flex-col items-center xl:justify-center"
+              className="flex"
             >
-              <div className="p-8 h-full rounded-3xl bg-brand/[0.04] border border-gray-800 hover:border-transparent shadow-brand hover:scale-[1.04] flex flex-col justify-between group cursor-pointer duration-300 hover:shadow-md w-full">
-                <div>
-                  <span className="text-4xl font-serif text-gray-200">"</span>
-                  <p className="text-gray-200 mt-4 text-sm leading-relaxed">
-                    {t.quote}
+              <div className="flex flex-col h-full w-full p-8 rounded-2xl bg-[#0F0F0F] border border-white/10 hover:border-brand/50 transition-colors duration-300 relative group">
+                {/* Large Quote Icon */}
+                <div className="mb-6">
+                    <Quote className="w-12 h-12 text-transparent stroke-brand stroke-[1.5] opacity-80" />
+                </div>
+
+                {/* Quote Text */}
+                <div className="flex-grow">
+                  <p className="text-gray-200 text-lg italic leading-relaxed font-light">
+                    "{t.quote}"
                   </p>
                 </div>
                 
-                <div className="mt-8 flex items-center gap-3">
-                   <img 
-                     src={t.image} 
-                     alt={t.author} 
-                     className="w-10 h-10 rounded-full bg-gray-100 object-cover"
-                   />
+                {/* Author Info */}
+                <div className="mt-8 flex items-center gap-4 border-t border-white/5 pt-6">
+                   <div className="relative shrink-0">
+                     <img 
+                       src={t.image} 
+                       alt={t.author} 
+                       className="w-12 h-12 rounded-full bg-gray-800 object-cover border border-white/10 group-hover:border-brand/50 transition-colors"
+                     />
+                   </div>
                    <div>
-                      <p className="font-bold text-gray-500 group-hover:text-brand transition-colors text-sm">{t.author}</p>
-                      <p className="text-gray-500 group-hover:text-brand transition-colors text-xs">{t.role}</p>
+                      <h4 className="font-bold text-white text-base leading-tight">
+                        {t.author}
+                      </h4>
+                      <p className="text-brand text-sm font-medium mt-1">
+                        {t.role}
+                      </p>
                    </div>
                 </div>
               </div>
