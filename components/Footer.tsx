@@ -5,9 +5,13 @@ const Footer: React.FC = () => {
     <footer className="py-12 bg-black border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-center md:text-left">
-          <p className="font-display font-bold text-xl text-white">
-            Edwin <span className="text-brand">Xploit</span>
-          </p>
+          <a href="#" className="inline-block mb-2">
+            <img 
+              src="https://i.ibb.co/CsYdLDLD/explot-logo.png" 
+              alt="Edwin Xploit" 
+              className="h-8 w-auto object-contain hover:opacity-80 transition-opacity"
+            />
+          </a>
           <p className="text-gray-500 text-sm mt-1">
             © {new Date().getFullYear()} All rights reserved.
           </p>

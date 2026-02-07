@@ -19,11 +19,12 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="group relative">
-          <span className="font-display font-bold text-xl md:text-2xl tracking-tight text-white group-hover:text-brand transition-colors">
-            Edwin <span className="text-brand">Xploit</span>
-          </span>
-          <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand group-hover:w-full transition-all duration-300" />
+        <a href="#" className="group relative block">
+          <img 
+            src="https://i.ibb.co/CsYdLDLD/explot-logo.png" 
+            alt="Edwin Xploit" 
+            className="h-10 w-auto object-contain hover:opacity-80 transition-opacity"
+          />
         </a>
 
         {/* Desktop Nav */}
