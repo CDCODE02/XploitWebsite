@@ -55,19 +55,22 @@ export const EXPERIENCE = [
 
 export const TESTIMONIALS = [
   {
-    quote: "Edwin understands the pulse of Web3 like few others. His ability to mobilize a community is simply unmatched.",
-    author: "Alex R.",
-    role: "Founder, Zenith Chain",
+    quote: "You played a pivotal role in the beta launch and user testing phase, ensuring that we captured valuable insights to refine our product. Your proactive approach and execution during this phase significantly contributed to the success of the launch.",
+    author: "AG",
+    role: "Arka Prediction Market",
+    image: "https://ui-avatars.com/api/?name=AG&background=random"
   },
   {
-    quote: "Working with Edwin was a game-changer for our TGE. The hype he generated was organic, sustained, and high-quality.",
-    author: "Sarah K.",
-    role: "CMO, Nova Protocol",
+    quote: "He consistently demonstrated a strong sense of professionalism, ownership, and creative problem-solving. He was dependable and proactive, and he approached his work with a clear focus on delivering high-quality outcomes.",
+    author: "Dr. Harri Obi",
+    role: "Lead, SuperteamNG",
+    image: "https://ui-avatars.com/api/?name=Harri+Obi&background=random"
   },
   {
-    quote: "From event logistics to high-level strategy, Edwin delivers excellence. A true partner in growth.",
-    author: "David L.",
-    role: "Partner, Venture DAO",
+    quote: "Edwin stood out for his ability to manage our community, create content, meet deadlines, and collaborate effectively, and he contributed meaningfully to our goals. He was proactive, receptive to feedback, and easy to work with in both independent and team settings.",
+    author: "Odion Olumhense",
+    role: "Co-founder/COO Joint Labs",
+    image: "https://ui-avatars.com/api/?name=Odion+Olumhense&background=random"
   },
 ];
 
