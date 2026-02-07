@@ -47,8 +47,8 @@ const About: React.FC = () => {
             className="relative"
           >
             <div className="relative z-10 grid grid-cols-2 gap-4">
-               <img src="https://picsum.photos/seed/tech1/400/500" alt="Working" className="rounded-2xl border border-white/5 object-cover h-64 w-full translate-y-8 shadow-2xl" />
-               <img src="https://picsum.photos/seed/tech2/400/500" alt="Speaking" className="rounded-2xl border border-white/5 object-cover h-64 w-full shadow-2xl" />
+               <img src="https://i.ibb.co/Q3X4jRQ2/heroimg.jpg" alt="Working" className="rounded-2xl border border-white/5 object-cover h-64 w-full translate-y-8 shadow-2xl" />
+               <img src="https://i.ibb.co/hxpgGv6d/about.jpg" alt="Speaking" className="rounded-2xl border border-white/5 object-cover h-64 w-full shadow-2xl" />
             </div>
             {/* Background decoration */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] border border-white/5 rounded-full opacity-20" />
