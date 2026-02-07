@@ -12,8 +12,7 @@ const Contact: React.FC = () => {
           Ready to scale?
         </h2>
         <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-          I only work with a select number of high-conviction projects each quarter. 
-          If you're serious about building something significant, let's talk.
+          From Web3 events to viral storytelling, I partner with brands to build thriving ecosystems, scale presence, and transform engaged audiences into lasting, high-conviction movements.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
