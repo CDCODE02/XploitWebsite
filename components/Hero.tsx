@@ -83,9 +83,9 @@ const Hero: React.FC = () => {
           className="flex-1 relative max-w-md md:max-w-full"
         >
             <div className="relative aspect-[4/5] md:aspect-square rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-brand/10">
-              {/* Placeholder for Edwin's Image */}
+              {/* Edwin's Image */}
               <img 
-                src="https://picsum.photos/id/4/800/800" 
+                src="https://i.ibb.co/C3mpfdpp/footeridel.jpg" 
                 alt="Achebo Edwin" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
