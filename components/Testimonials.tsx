@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 const Testimonials: React.FC = () => {
   return (
     <section className="py-24 bg-[#080808] border-t border-white/5">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand mb-6">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="text-center mb-12">
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand mb-4">
             Trusted by Ambitious Founders
           </h2>
           <p className="text-gray-200 text-lg max-w-2xl mx-auto">
@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {TESTIMONIALS.map((t, i) => (
             <motion.div
               key={i}
@@ -23,25 +23,27 @@ const Testimonials: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="group p-8 rounded-3xl bg-brand/5 border border-dark-border hover:border-transparent hover:shadow-2xl hover:shadow-brand/20 transition-all duration-300 hover:-translate-y-2 flex flex-col justify-between"
+              className="flex flex-col items-center xl:justify-center"
             >
-              <div>
-                <span className="text-4xl font-serif text-brand/50">"</span>
-                <p className="text-gray-300 text-sm leading-relaxed mt-4 mb-8">
-                  {t.quote}
-                </p>
-              </div>
-              
-              <div className="flex items-center gap-4 border-t border-white/5 pt-6">
-                 <img 
-                   src={t.image} 
-                   alt={t.author} 
-                   className="w-12 h-12 rounded-full bg-gray-800 object-cover border border-white/10"
-                 />
-                 <div>
-                    <p className="text-white font-bold group-hover:text-brand transition-colors">{t.author}</p>
-                    <p className="text-gray-500 text-xs group-hover:text-brand/80 transition-colors">{t.role}</p>
-                 </div>
+              <div className="p-8 h-full rounded-3xl bg-brand/[0.04] border border-gray-800 hover:border-transparent shadow-brand hover:scale-[1.04] flex flex-col justify-between group cursor-pointer duration-300 hover:shadow-md w-full">
+                <div>
+                  <span className="text-4xl font-serif text-gray-200">"</span>
+                  <p className="text-gray-200 mt-4 text-sm leading-relaxed">
+                    {t.quote}
+                  </p>
+                </div>
+                
+                <div className="mt-8 flex items-center gap-3">
+                   <img 
+                     src={t.image} 
+                     alt={t.author} 
+                     className="w-10 h-10 rounded-full bg-gray-100 object-cover"
+                   />
+                   <div>
+                      <p className="font-bold text-gray-500 group-hover:text-brand transition-colors text-sm">{t.author}</p>
+                      <p className="text-gray-500 group-hover:text-brand transition-colors text-xs">{t.role}</p>
+                   </div>
+                </div>
               </div>
             </motion.div>
           ))}
