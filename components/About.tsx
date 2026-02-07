@@ -1,5 +1,4 @@
 import React from 'react';
-import { CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const About: React.FC = () => {
@@ -32,9 +31,16 @@ const About: React.FC = () => {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {['Community Growth', 'Event Management', 'Strategic Partnerships', 'Developer Relations'].map((item) => (
+              {[
+                'Community Builder',
+                'Marketer',
+                'Video Content Creator',
+                'Web3 Event Expert',
+                'Business development',
+                'Web3 Entertainer'
+              ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
-                  <CheckCircle2 className="text-brand" size={20} />
+                  <span className="text-brand text-xl">✦</span>
                   <span className="text-gray-300 font-medium">{item}</span>
                 </div>
               ))}
