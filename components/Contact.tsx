@@ -24,7 +24,9 @@ const Contact: React.FC = () => {
             Get in Touch
           </a>
           <a 
-            href="#"
+            href="https://t.me/EdXploit"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-10 py-5 bg-white/5 border border-white/10 text-white font-bold text-xl rounded hover:bg-white/10 transition-colors flex items-center justify-center gap-2"
           >
             Book a Call
