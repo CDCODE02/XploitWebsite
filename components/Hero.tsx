@@ -26,9 +26,9 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="font-display font-bold text-5xl md:text-7xl leading-[1.1] text-white mb-6">
-            Architecting the <br/>
+            Powering Web3 <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-yellow-200">
-              Web3 Future.
+              Growth.
             </span>
           </h1>
           
