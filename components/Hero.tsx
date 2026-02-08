@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-brand text-xs font-semibold uppercase tracking-wider mb-6">
             <span className="w-2 h-2 rounded-full bg-brand animate-pulse" />
-            Available for new projects
+            Available for projects
           </div>
           
           <h1 className="font-display font-bold text-5xl md:text-7xl leading-[1.1] text-white mb-6">
