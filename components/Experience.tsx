@@ -33,11 +33,13 @@ const Experience: React.FC = () => {
                     {job.description}
                   </p>
                 </div>
-                <div className="md:text-right">
-                  <span className="inline-block px-3 py-1 bg-white/5 rounded-full text-xs font-mono text-gray-400 border border-white/10">
-                    {job.period}
-                  </span>
-                </div>
+                {job.period && (
+                  <div className="md:text-right">
+                    <span className="inline-block px-3 py-1 bg-white/5 rounded-full text-xs font-mono text-gray-400 border border-white/10">
+                      {job.period}
+                    </span>
+                  </div>
+                )}
               </div>
             </motion.div>
           ))}

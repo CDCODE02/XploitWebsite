@@ -44,22 +44,40 @@ export const SERVICES = [
 
 export const EXPERIENCE = [
   {
-    role: 'Head of Community',
-    company: 'Leading DeFi Protocol',
-    period: '2022 - Present',
-    description: 'Spearheaded community growth from 5k to 150k members. Orchestrated global ambassador program spanning 12 regions.',
+    role: 'State/Community Builder',
+    company: 'SuperteamNG',
+    period: '',
+    description: 'Grew the local Superteam community from zero to about 400 members. A successful product launch. About $20k GDP for the community. Also I made a noticable contribution to the growth of solana in africa.',
   },
   {
-    role: 'Senior Event Manager',
-    company: 'Web3 Conference Inc.',
-    period: '2021 - 2022',
-    description: 'Managed logistics and content for Tier-1 crypto conferences in Dubai, Singapore, and London.',
+    role: 'Community Manager',
+    company: 'Joint Labs',
+    period: '',
+    description: "Oversaw the community engagements, provided support and consistently maintained the project's roadmap",
   },
   {
-    role: 'Marketing Strategist',
-    company: 'NFT Launchpad',
-    period: '2020 - 2021',
-    description: 'Executed go-to-market strategies for blue-chip NFT collections, generating over $2M in primary sales volume.',
+    role: 'Country Lead',
+    company: 'ARKA Markets',
+    period: '',
+    description: 'Onboarded early users during beta launch that account for about 88% of total trading volume. Successfully organized the first global meetup in nigeria.',
+  },
+  {
+    role: 'Chief Marketing Officer',
+    company: 'BoundlessPay',
+    period: '',
+    description: "Known for combining data-driven marketing, brand positioning, story telling campaigns with creativity to build awareness and foster user's acceptance.",
+  },
+  {
+    role: 'Community Builder',
+    company: 'XRPL',
+    period: '',
+    description: 'Played a pivotal role in onboarding and growing the XRPL ecosystem.',
+  },
+  {
+    role: 'Convener/Lead',
+    company: 'AprilFull',
+    period: '',
+    description: "Organizer of Africa's first web3 entertainment ticketed event to be SOLD OUT.",
   },
 ];
 
