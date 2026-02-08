@@ -103,10 +103,13 @@ export const TESTIMONIALS = [
 ];
 
 export const EVENTS_GALLERY = [
-  { id: 1, title: "Token2049 Side Event", image: "https://picsum.photos/seed/web3conf1/600/400" },
-  { id: 2, title: "ETH Global Hackathon", image: "https://picsum.photos/seed/hackathon/600/800" },
-  { id: 3, title: "Dubai Crypto Meetup", image: "https://picsum.photos/seed/dubai/600/400" },
-  { id: 4, title: "Community AMA Session", image: "https://picsum.photos/seed/ama/600/400" },
-  { id: 5, title: "NFT NYC Panel", image: "https://picsum.photos/seed/panel/600/600" },
-  { id: 6, title: "Private Founder Dinner", image: "https://picsum.photos/seed/dinner/600/400" },
+  { id: 1, title: "Token2049 Side Event", image: "https://i.ibb.co/bRQ7xsYh/event.jpg" },
+  { id: 2, title: "ETH Global Hackathon", image: "https://i.ibb.co/XkDW3N8f/event1.jpg" },
+  { id: 3, title: "Dubai Crypto Meetup", image: "https://i.ibb.co/tMjW47VS/event2.jpg" },
+  { id: 4, title: "Community AMA Session", image: "https://i.ibb.co/V4b7Qsb/event3.jpg" },
+  { id: 5, title: "NFT NYC Panel", image: "https://i.ibb.co/qYsdStry/event4.jpg" },
+  { id: 6, title: "Private Founder Dinner", image: "https://i.ibb.co/99KSk4GW/event5.jpg" },
+  { id: 7, title: "Web3 Conference", image: "https://i.ibb.co/SwL4K86W/eventla.jpg" },
+  { id: 8, title: "Arka Launch Event", image: "https://i.ibb.co/6R5hBxjn/eventark.jpg" },
+  { id: 9, title: "Community Gathering", image: "https://i.ibb.co/m5MzBNKG/evl.jpg" },
 ];
