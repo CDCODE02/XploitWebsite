@@ -20,7 +20,8 @@ const About: React.FC = () => {
             </h3>
             <div className="text-gray-400 text-lg leading-relaxed space-y-6">
               <p>
-                I have a strong track record in driving engagement and growth. A skilled video content creator known for crafting compelling, platform-native narratives.
+                I build high-growth ecosystems by bridging digital content and human connection, scripting viral videos, architecting Web3 events, and scaling communities into engaged, loyal networks.
+                <strong className="text-white"> Create value that lasts.</strong>
               </p>
               <p>
                 I'm an experienced Web3 marketing executive and event expert, adept at organizing,
@@ -28,8 +29,7 @@ const About: React.FC = () => {
                 Passionate about brand representation, with a natural fit for ambassadorial and partnership-facing roles.
               </p>
               <p>
-                I build high-growth ecosystems by bridging digital content and human connection, scripting viral videos, architecting Web3 events, and scaling communities into engaged, loyal networks.
-                <strong className="text-white"> Create value that lasts.</strong>
+                I have a strong track record in driving engagement and growth. A skilled video content creator known for crafting compelling, platform-native narratives.
               </p>
             </div>
 
