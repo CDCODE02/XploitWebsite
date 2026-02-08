@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
 
         <div className="flex flex-wrap justify-center gap-6 text-white">
            <a href="https://x.com/Xploit_VOBE" target="_blank" rel="noopener noreferrer" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Twitter"><Twitter size={24} /></a>
-           <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="LinkedIn"><Linkedin size={24} /></a>
+           <a href="https://www.linkedin.com/in/achebo-edwin-785083169/" target="_blank" rel="noopener noreferrer" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="LinkedIn"><Linkedin size={24} /></a>
            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Telegram"><Send size={24} /></a>
            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="TikTok">
               <svg
