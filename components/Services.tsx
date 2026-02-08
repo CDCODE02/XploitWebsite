@@ -26,14 +26,20 @@ const Services: React.FC = () => {
               transition={{ delay: index * 0.1, duration: 0.5 }}
               className="flex flex-col h-full"
             >
-              <div className="bg-brand/5 cursor-pointer border border-[#27272a] rounded-2xl p-8 hover:border-brand/50 transition-colors duration-300 flex flex-col h-full group">
-                <div className="mb-6">
-                  <service.icon size={40} className="text-brand" strokeWidth={2} />
+              <div className="bg-white/5 cursor-pointer border border-white/10 rounded-2xl p-8 hover:border-brand/50 hover:bg-brand/5 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(255,211,13,0.15)] transition-all duration-300 flex flex-col h-full group relative overflow-hidden">
+                {/* Decoration gradient */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-brand/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-brand/10 transition-colors duration-500" />
+                
+                <div className="mb-6 relative z-10">
+                  <div className="w-14 h-14 rounded-lg bg-brand/10 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 border border-brand/20 group-hover:border-brand">
+                    <service.icon size={28} className="text-brand" strokeWidth={2} />
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-100">
+                
+                <h3 className="text-2xl font-bold mb-4 text-gray-100 group-hover:text-brand transition-colors duration-300 relative z-10">
                   {service.title}
                 </h3>
-                <p className="text-gray-400 flex-grow leading-relaxed">
+                <p className="text-gray-400 flex-grow leading-relaxed relative z-10 group-hover:text-gray-300 transition-colors duration-300">
                   {service.description}
                 </p>
               </div>
