@@ -35,16 +35,16 @@ const About: React.FC = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
               {[
-                'Community Builder',
-                'Marketer',
-                'Video Content Creator',
-                'Web3 Event Expert',
-                'Business development',
-                'Web3 Entertainer'
+                'COMMUNITY BUILDER',
+                'MARKETER',
+                'VIDEO CONTENT CREATOR',
+                'WEB3 EVENT EXPERT',
+                'BUSINESS DEVELOPMENT',
+                'WEB3 ENTERTAINER'
               ].map((item) => (
-                <div key={item} className="flex items-center gap-3">
-                  <span className="text-brand text-xl">✦</span>
-                  <span className="text-gray-300 font-medium">{item}</span>
+                <div key={item} className="flex items-center gap-3 group cursor-pointer hover:bg-white/5 p-2 -ml-2 rounded-lg transition-all duration-300">
+                  <span className="text-brand text-xl transform group-hover:rotate-90 group-hover:scale-110 transition-transform duration-300">✦</span>
+                  <span className="text-gray-300 font-medium uppercase tracking-wider group-hover:text-brand group-hover:translate-x-1 transition-all duration-300">{item}</span>
                 </div>
               ))}
             </div>
