@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto md:mx-0 leading-relaxed">
-            I help elite protocols and startups build unstoppable communities, execute high-impact events, and define their narrative in the decentralized economy.
+            I help elite protocols, ecosystems and startups build unstoppable communities, execute high-impact events, and define their narrative in the decentralized economy.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
