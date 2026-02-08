@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Twitter, Linkedin, Send, Instagram } from 'lucide-react';
+import { ArrowRight, Twitter, Linkedin, Send } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Hero: React.FC = () => {
@@ -56,7 +56,6 @@ const Hero: React.FC = () => {
             <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Twitter"><Twitter size={24} /></a>
             <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="LinkedIn"><Linkedin size={24} /></a>
             <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Telegram"><Send size={24} /></a>
-            <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="Instagram"><Instagram size={24} /></a>
             <a href="#" className="hover:text-brand transition-colors transform hover:scale-110" aria-label="TikTok">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
