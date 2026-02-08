@@ -7,10 +7,13 @@ const Services: React.FC = () => {
     <section id="services" className="py-24 bg-dark-bg relative">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-brand font-bold uppercase tracking-widest text-sm mb-3">Expertise</h2>
-          <h3 className="font-display text-4xl md:text-5xl font-bold text-white">
-            High-Impact Services
+          <h2 className="text-brand font-bold uppercase tracking-widest text-sm mb-3">Services</h2>
+          <h3 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">
+            What I Can Do For You
           </h3>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            I offer a comprehensive range of web3 focused marketing services to help you grow your project.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
