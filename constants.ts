@@ -1,4 +1,4 @@
-import { Box, Mic, Users, Zap, TrendingUp, Globe, Target, Award } from 'lucide-react';
+import { Box, Mic, Users, Zap, TrendingUp, Globe, Target, Award, UserPlus, Video, CalendarCheck, Handshake, Sparkles } from 'lucide-react';
 
 export const NAVIGATION = [
   { name: 'Home', href: '#home' },
@@ -11,24 +11,34 @@ export const NAVIGATION = [
 
 export const SERVICES = [
   {
-    title: 'Community Architecture',
-    description: 'Building resilient, high-engagement Web3 communities from zero to critical mass using data-driven engagement loops.',
-    icon: Users,
+    title: 'Community Building',
+    description: "I build loyal, high-signal communities that don't just exist — they participate, convert, and grow ecosystems.",
+    icon: UserPlus,
   },
   {
-    title: 'Event Strategy & Execution',
-    description: 'Curating premium side-events, hackathons, and conferences that drive brand authority and developer adoption.',
-    icon: Mic,
-  },
-  {
-    title: 'Growth Marketing',
-    description: 'User acquisition strategies tailored for protocols and dApps. Converting passive followers into active token holders.',
+    title: 'Web3 Marketing',
+    description: 'I design and execute Web3-native marketing that turns complex products into narratives people believe in and act on.',
     icon: TrendingUp,
   },
   {
-    title: 'Brand Positioning',
-    description: 'Defining your narrative in a noisy market. High-impact messaging that resonates with VCs and degens alike.',
-    icon: Target,
+    title: 'Content Creation',
+    description: 'I create scroll-stopping content that educates, entertains, and moves audiences from awareness to adoption.',
+    icon: Video,
+  },
+  {
+    title: 'Web3 Events',
+    description: 'I craft unforgettable Web3 experiences that blend strategy, storytelling, and culture to drive real ecosystem impact.',
+    icon: CalendarCheck,
+  },
+  {
+    title: 'Business Development',
+    description: 'I unlock strategic partnerships and growth opportunities that align vision, value, and long-term expansion.',
+    icon: Handshake,
+  },
+  {
+    title: 'Web3 Entertainment',
+    description: 'I fuse blockchain education with entertainment to make Web3 human, memorable, and impossible to ignore.',
+    icon: Zap,
   },
 ];
 

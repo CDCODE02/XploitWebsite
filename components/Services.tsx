@@ -16,7 +16,7 @@ const Services: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {SERVICES.map((service, index) => (
             <motion.div
               key={service.title}
@@ -24,15 +24,19 @@ const Services: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
-              className="group p-8 rounded-2xl bg-[#0A0A0A] border border-dark-border hover:border-brand/50 transition-all duration-300 hover:shadow-2xl hover:shadow-brand/5 hover:-translate-y-1 flex flex-col"
+              className="flex flex-col h-full"
             >
-              <div className="h-12 w-12 rounded-lg bg-white/5 text-brand flex items-center justify-center mb-6 group-hover:bg-brand group-hover:text-black transition-colors">
-                <service.icon size={24} />
+              <div className="bg-brand/5 cursor-pointer border border-[#27272a] rounded-2xl p-8 hover:border-brand/50 transition-colors duration-300 flex flex-col h-full group">
+                <div className="mb-6">
+                  <service.icon size={40} className="text-brand" strokeWidth={2} />
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-100">
+                  {service.title}
+                </h3>
+                <p className="text-gray-400 flex-grow leading-relaxed">
+                  {service.description}
+                </p>
               </div>
-              <h4 className="text-xl font-bold text-white mb-3">{service.title}</h4>
-              <p className="text-gray-400 text-sm leading-relaxed flex-grow">
-                {service.description}
-              </p>
             </motion.div>
           ))}
         </div>
