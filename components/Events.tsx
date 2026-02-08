@@ -6,12 +6,10 @@ const Events: React.FC = () => {
   return (
     <section id="events" className="py-24 bg-dark-bg">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-            <div>
-                <h2 className="text-brand font-bold uppercase tracking-widest text-sm mb-3">On The Ground</h2>
-                <h3 className="font-display text-4xl md:text-5xl font-bold text-white">Events & Speaking</h3>
-            </div>
-            <p className="text-gray-400 max-w-md text-right md:text-right">
+        <div className="mb-12">
+            <h2 className="text-brand font-bold uppercase tracking-widest text-sm mb-3">On The Ground Of</h2>
+            <h3 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">Events & Speaking</h3>
+            <p className="text-gray-400 italic text-lg max-w-2xl">
                 Highlights from global conferences, hackathons, and community meetups.
             </p>
         </div>
