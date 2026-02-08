@@ -26,17 +26,12 @@ const Events: React.FC = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="relative group break-inside-avoid rounded-xl overflow-hidden cursor-pointer"
             >
-              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/0 transition-colors duration-300 z-10" />
               <img 
                 src={event.image} 
                 alt={event.title}
                 loading="lazy"
                 className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 to-transparent z-20 translate-y-4 group-hover:translate-y-0 transition-transform duration-300 opacity-0 group-hover:opacity-100">
-                <p className="text-white font-bold text-lg">{event.title}</p>
-                <p className="text-brand text-xs uppercase tracking-wider mt-1">View Details</p>
-              </div>
             </motion.div>
           ))}
         </div>
