@@ -17,7 +17,9 @@ const Contact: React.FC = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a 
-            href="mailto:contact@edwinxploit.com"
+            href="https://t.me/EdXploit"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-10 py-5 bg-brand text-black font-bold text-xl rounded hover:bg-brand-hover transition-all hover:scale-105 flex items-center justify-center gap-2"
           >
             <Mail size={22} />
