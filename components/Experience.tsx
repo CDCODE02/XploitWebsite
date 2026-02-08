@@ -1,6 +1,5 @@
 import React from 'react';
 import { EXPERIENCE } from '../constants';
-import { Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Experience: React.FC = () => {
@@ -43,13 +42,6 @@ const Experience: React.FC = () => {
               </div>
             </motion.div>
           ))}
-        </div>
-        
-        <div className="mt-12 text-center">
-            <a href="/resume.pdf" className="inline-flex items-center gap-2 text-gray-400 hover:text-brand transition-colors text-sm font-medium border-b border-transparent hover:border-brand pb-0.5">
-                <Briefcase size={16} />
-                Download Full Resume
-            </a>
         </div>
       </div>
     </section>
